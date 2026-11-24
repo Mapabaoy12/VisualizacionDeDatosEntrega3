@@ -52,7 +52,7 @@ Bases corporativas enriquecidas con metadatos internacionales de **TMDB** (The M
 
 **Calidad de los datos que hay que conocer**
 
-- Solo el **23% de las películas (2010–2024)** tiene budget y revenue mayores a 0. Las series no tienen datos financieros.
+- Solo el **22% de las películas (2010–2024)** tiene budget y revenue mayores a 0. Las series no tienen datos financieros.
 - **2025 está incompleto**: el 66% de sus títulos entra en el primer trimestre y el 68% aún no tiene votos. Por eso se excluye del análisis.
 - El campo `duration` de las series vale "1 Seasons" en todos los registros, por lo que no sirve para medir renovación.
 - El 17% de los títulos tiene varios países en un mismo texto.
@@ -187,7 +187,7 @@ Con el filtro 2010–2024 y los segmentadores en "Todo", los KPIs deben mostrar:
 |---|---|
 | ROI películas | 2,91x (−16,8% vs. meta 3,5x) |
 | Revenue (base ROI) | $364 mil M |
-| Cobertura financiera | 23% |
+| Cobertura financiera | 22% |
 | % catálogo a priorizar | 3,8% |
 | % catálogo a descubrir | 3,4% |
 | Contenidos evaluables | 26.465 |
@@ -199,7 +199,7 @@ Si algún valor no coincide, revisa que las rutas de los CSV estén bien configu
 
 ## 8. Limitaciones
 
-- El ROI solo representa al 23% de las películas, y las que reportan datos suelen ser grandes estrenos, por lo que puede sobrestimar el retorno del resto.
+- El ROI solo representa al 22% de las películas, y las que reportan datos suelen ser grandes estrenos, por lo que puede sobrestimar el retorno del resto.
 - Las relaciones entre género, nivel y ROI son asociaciones, no causalidad.
 - Los umbrales (P75, rating 7,5 y meta 3,5) son criterios definidos por el equipo.
 - Los datos describen el catálogo, no a los usuarios: la retención no se mide directamente.
